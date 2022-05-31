@@ -1,5 +1,66 @@
 body {
-    /* height: 100vh; */
-    /* width: 100vw; */
-    background-image: url(assets/redRocksFullMoon);
+    height: 100vh; 
+    width: 100vw;
+    background-color: #4c3434;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+} 
+
+#happyBirthday{
+    font-family: Gloria Hallelujah;
+    color: #ffbe0b;
+    font-size: 3.5vw;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
+
+#rowArea{
+    display: flex;
+    flex-direction: row;
+}
+
+#bertArea{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    width: 42vw;
+}
+
+#bertPic{
+    width: 100%;
+    height: auto;
+}
+
+#bertMarkShane{
+    width: 100%;
+    height: auto;
+}
+
+#redRocksArea{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    width: 51vw;
+}
+
+#twoDays{
+    font-family: Gloria Hallelujah;
+    color: #ffbe0b;
+    font-size: 4.2vw;
+    padding: 0;
+    margin: 0;
+    padding-top: 5vh;
+}
+
+#wilcoRedRocks{
+    padding-top: 8vh;
+}
+
+
+
+
+
+
+
